@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.florianfinn.cropariumifcompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["PlantFertilizerTileMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

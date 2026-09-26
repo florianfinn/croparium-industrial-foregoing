@@ -7,7 +7,10 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="florianfinn"
-description='''Lets the Industrial Foregoing Plant Gatherer harvest mature Croparium crops without removing or replanting them.'''
+description='''Lets the Industrial Foregoing Plant Gatherer harvest and the Plant Fertilizer grow Croparium crops.'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
 
 [[dependencies.${mod_id}]]
 modId="neoforge"
