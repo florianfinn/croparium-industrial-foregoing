@@ -20,6 +20,10 @@ Install the release JAR alongside these mods on both client and server. Cropariu
 - If Croparium has no mapped output for a crop, that crop remains untouched.
 - The Gatherer handles energy use and item insertion through Industrial Foregoing's normal machinery.
 
+## Why I made this
+
+I wanted this feature for my own modpack, but I have no experience creating Minecraft mods myself. I asked ChatGPT to create the mod and its project materials, including the code, icon, and this description. I tested the resulting mod in my Minecraft client.
+
 ## Build
 
 Run `./gradlew build` (or `gradlew.bat build` on Windows). The build fetches the exact Industrial Foregoing and Croparium files used during development from CurseMaven; no third-party JARs are redistributed in this source repository. The built JAR is in `build/libs/`.
