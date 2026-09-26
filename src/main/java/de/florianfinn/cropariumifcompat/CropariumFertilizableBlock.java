@@ -16,13 +16,11 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 /** A delegate used only by Industrial Foregoing while it fertilizes a Croparium crop. */
 public final class CropariumFertilizableBlock extends Block implements BonemealableBlock {
-    public static final CropariumFertilizableBlock INSTANCE = new CropariumFertilizableBlock();
-
     private static final TagKey<Block> CROPS = TagKey.create(
             Registries.BLOCK, ResourceLocation.fromNamespaceAndPath("cp_lib", "crops"));
     private static final int RIPE_AGE = 7;
 
-    private CropariumFertilizableBlock() {
+    public CropariumFertilizableBlock() {
         super(BlockBehaviour.Properties.of());
     }
 
